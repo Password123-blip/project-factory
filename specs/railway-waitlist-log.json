@@ -1,0 +1,69 @@
+{
+  "slug": "railway-waitlist-log",
+  "title": "Railway Waitlist Log",
+  "tagline": "See how waitlists actually move before you book",
+  "description": "See how waitlists actually move before you book.",
+  "category": "Travel",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "observations",
+    "singular": "observation",
+    "plural": "observations",
+    "fields": [
+      {
+        "name": "train",
+        "label": "Train number and name",
+        "type": "text",
+        "required": true,
+        "placeholder": "12951 Mumbai Rajdhani"
+      },
+      {
+        "name": "from_station",
+        "label": "From",
+        "type": "text",
+        "required": true,
+        "placeholder": "Mumbai Central"
+      },
+      {
+        "name": "to_station",
+        "label": "To",
+        "type": "text",
+        "required": true,
+        "placeholder": "New Delhi"
+      },
+      {
+        "name": "position",
+        "label": "Waitlist position",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "observed_on",
+        "label": "Observed on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\ud83d\udcc9",
+      "title": "Track a waitlist over days",
+      "body": "Log the position each morning and watch it clear or climb."
+    },
+    {
+      "icon": "\ud83d\ude86",
+      "title": "Real trains, real numbers",
+      "body": "Searchable by train number so you compare like with like."
+    },
+    {
+      "icon": "\ud83e\udd1d",
+      "title": "Crowd-sourced",
+      "body": "Anyone can add an observation; nothing is behind a login."
+    }
+  ],
+  "seed": []
+}
