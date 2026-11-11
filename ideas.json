@@ -1,0 +1,1304 @@
+{
+  "backlog": [
+    {
+      "slug": "railway-waitlist-log",
+      "title": "Railway Waitlist Log",
+      "category": "Travel",
+      "tagline": "See how waitlists actually move before you book",
+      "table": {
+        "name": "observations",
+        "singular": "observation",
+        "plural": "observations",
+        "fields": [
+          {
+            "name": "train",
+            "label": "Train number and name",
+            "type": "text",
+            "required": true,
+            "placeholder": "12951 Mumbai Rajdhani"
+          },
+          {
+            "name": "from_station",
+            "label": "From",
+            "type": "text",
+            "required": true,
+            "placeholder": "Mumbai Central"
+          },
+          {
+            "name": "to_station",
+            "label": "To",
+            "type": "text",
+            "required": true,
+            "placeholder": "New Delhi"
+          },
+          {
+            "name": "position",
+            "label": "Waitlist position",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "observed_on",
+            "label": "Observed on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udcc9",
+          "title": "Track a waitlist over days",
+          "body": "Log the position each morning and watch it clear or climb."
+        },
+        {
+          "icon": "\ud83d\ude86",
+          "title": "Real trains, real numbers",
+          "body": "Searchable by train number so you compare like with like."
+        },
+        {
+          "icon": "\ud83e\udd1d",
+          "title": "Crowd-sourced",
+          "body": "Anyone can add an observation; nothing is behind a login."
+        }
+      ]
+    },
+    {
+      "slug": "tiffin-menu-planner",
+      "title": "Tiffin Menu Planner",
+      "category": "Food",
+      "tagline": "Plan a week of tiffin without repeating a sabzi",
+      "table": {
+        "name": "meals",
+        "singular": "meal",
+        "plural": "meals",
+        "fields": [
+          {
+            "name": "dish",
+            "label": "Dish",
+            "type": "text",
+            "required": true,
+            "placeholder": "Rajma, bhindi, dal tadka"
+          },
+          {
+            "name": "day_of_week",
+            "label": "Day",
+            "type": "text",
+            "required": true,
+            "placeholder": "Monday"
+          },
+          {
+            "name": "meal_type",
+            "label": "Meal type",
+            "type": "text",
+            "required": true,
+            "placeholder": "Lunch"
+          },
+          {
+            "name": "is_veg",
+            "label": "Vegetarian",
+            "type": "bool",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "notes",
+            "label": "Notes",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\uddd3\ufe0f",
+          "title": "A week at a glance",
+          "body": "Seven days, two meals, no accidental repeats."
+        },
+        {
+          "icon": "\ud83e\udd57",
+          "title": "Veg and non-veg side by side",
+          "body": "Tag each dish so the whole household can pick."
+        },
+        {
+          "icon": "\ud83d\udce4",
+          "title": "Print and stick on the fridge",
+          "body": "Clean layout that survives a real kitchen."
+        }
+      ]
+    },
+    {
+      "slug": "scooter-service-tracker",
+      "title": "Scooter Service Tracker",
+      "category": "Auto",
+      "tagline": "Know when your scooter is actually due",
+      "table": {
+        "name": "services",
+        "singular": "service",
+        "plural": "services",
+        "fields": [
+          {
+            "name": "vehicle",
+            "label": "Vehicle",
+            "type": "text",
+            "required": true,
+            "placeholder": "Activa 6G"
+          },
+          {
+            "name": "odometer_km",
+            "label": "Odometer (km)",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "service_type",
+            "label": "Service type",
+            "type": "text",
+            "required": true,
+            "placeholder": "Oil change"
+          },
+          {
+            "name": "cost",
+            "label": "Cost (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "serviced_on",
+            "label": "Serviced on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udef5",
+          "title": "Odometer-based reminders",
+          "body": "Log the km reading and see the next interval clearly."
+        },
+        {
+          "icon": "\ud83e\uddfe",
+          "title": "Full cost history",
+          "body": "Every rupee you have put into the vehicle, in one place."
+        },
+        {
+          "icon": "\ud83d\udd27",
+          "title": "Service types",
+          "body": "Oil, brakes, tyres \u2014 filter what was actually done."
+        }
+      ]
+    },
+    {
+      "slug": "society-complaint-box",
+      "title": "Society Complaint Box",
+      "category": "Civic",
+      "tagline": "A paper trail for building complaints",
+      "table": {
+        "name": "complaints",
+        "singular": "complaint",
+        "plural": "complaints",
+        "fields": [
+          {
+            "name": "flat",
+            "label": "Flat / unit",
+            "type": "text",
+            "required": true,
+            "placeholder": "B-402"
+          },
+          {
+            "name": "category",
+            "label": "Category",
+            "type": "text",
+            "required": true,
+            "placeholder": "Plumbing"
+          },
+          {
+            "name": "summary",
+            "label": "What happened",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "severity",
+            "label": "Severity",
+            "type": "text",
+            "required": true,
+            "placeholder": "High"
+          },
+          {
+            "name": "raised_on",
+            "label": "Raised on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udccb",
+          "title": "Nothing gets lost in WhatsApp",
+          "body": "Every complaint gets a row with a date."
+        },
+        {
+          "icon": "\ud83c\udff7\ufe0f",
+          "title": "Categorised",
+          "body": "Plumbing, lift, security, parking \u2014 sortable."
+        },
+        {
+          "icon": "\u23f1\ufe0f",
+          "title": "Age of open issues",
+          "body": "See which complaints have been sitting too long."
+        }
+      ]
+    },
+    {
+      "slug": "exam-revision-budget",
+      "title": "Exam Revision Budget",
+      "category": "Education",
+      "tagline": "Split your study hours like money",
+      "table": {
+        "name": "sessions",
+        "singular": "session",
+        "plural": "sessions",
+        "fields": [
+          {
+            "name": "subject",
+            "label": "Subject",
+            "type": "text",
+            "required": true,
+            "placeholder": "Polity"
+          },
+          {
+            "name": "minutes",
+            "label": "Minutes studied",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "topic",
+            "label": "Topic",
+            "type": "text",
+            "required": true,
+            "placeholder": "Fundamental Rights"
+          },
+          {
+            "name": "confidence",
+            "label": "Confidence 1-5",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "studied_on",
+            "label": "Studied on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\u23f3",
+          "title": "Hours per subject",
+          "body": "See where the time actually went, not where you think it went."
+        },
+        {
+          "icon": "\ud83d\udcca",
+          "title": "Confidence tracking",
+          "body": "Rate each topic so weak areas surface on their own."
+        },
+        {
+          "icon": "\ud83c\udfaf",
+          "title": "Built for competitive exams",
+          "body": "UPSC, SSC, GATE \u2014 same shape of problem."
+        }
+      ]
+    },
+    {
+      "slug": "rent-split-ledger",
+      "title": "Rent Split Ledger",
+      "category": "Finance",
+      "tagline": "Who paid what, and who owes whom",
+      "table": {
+        "name": "expenses",
+        "singular": "expense",
+        "plural": "expenses",
+        "fields": [
+          {
+            "name": "flatmate",
+            "label": "Paid by",
+            "type": "text",
+            "required": true,
+            "placeholder": "Aman"
+          },
+          {
+            "name": "item",
+            "label": "Item",
+            "type": "text",
+            "required": true,
+            "placeholder": "Electricity"
+          },
+          {
+            "name": "amount",
+            "label": "Amount (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "split_among",
+            "label": "Split among (people)",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "paid_on",
+            "label": "Paid on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83e\uddee",
+          "title": "Per-head maths done for you",
+          "body": "Enter the amount and headcount, get the share."
+        },
+        {
+          "icon": "\ud83d\udc65",
+          "title": "Named flatmates",
+          "body": "No more 'someone paid the bill'."
+        },
+        {
+          "icon": "\ud83d\udcc6",
+          "title": "Month by month",
+          "body": "Filter to the month you are settling."
+        }
+      ]
+    },
+    {
+      "slug": "book-reading-log",
+      "title": "Book Reading Log",
+      "category": "Reading",
+      "tagline": "Track pages, not vibes",
+      "table": {
+        "name": "books",
+        "singular": "book",
+        "plural": "books",
+        "fields": [
+          {
+            "name": "title",
+            "label": "Title",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "author",
+            "label": "Author",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "pages_read",
+            "label": "Pages read",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "rating",
+            "label": "Rating 1-5",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "finished_on",
+            "label": "Finished on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udcda",
+          "title": "Pages and ratings",
+          "body": "The two numbers that actually tell you about your reading."
+        },
+        {
+          "icon": "\u270d\ufe0f",
+          "title": "Author index",
+          "body": "See which authors you keep coming back to."
+        },
+        {
+          "icon": "\ud83c\udfc1",
+          "title": "Finish dates",
+          "body": "How long a book really took you."
+        }
+      ]
+    },
+    {
+      "slug": "plant-watering-rota",
+      "title": "Plant Watering Rota",
+      "category": "Home",
+      "tagline": "Stop killing your plants",
+      "table": {
+        "name": "waterings",
+        "singular": "watering",
+        "plural": "waterings",
+        "fields": [
+          {
+            "name": "plant",
+            "label": "Plant",
+            "type": "text",
+            "required": true,
+            "placeholder": "Money plant"
+          },
+          {
+            "name": "location",
+            "label": "Location",
+            "type": "text",
+            "required": true,
+            "placeholder": "Balcony"
+          },
+          {
+            "name": "watered_on",
+            "label": "Watered on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "amount_ml",
+            "label": "Water (ml)",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "notes",
+            "label": "Notes",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83e\udeb4",
+          "title": "Per-plant history",
+          "body": "Each plant keeps its own watering record."
+        },
+        {
+          "icon": "\ud83d\udca7",
+          "title": "Volume tracking",
+          "body": "Millilitres, not guesses."
+        },
+        {
+          "icon": "\ud83c\udfe0",
+          "title": "By location",
+          "body": "Balcony versus indoors behaves differently."
+        }
+      ]
+    },
+    {
+      "slug": "gym-pr-board",
+      "title": "Gym PR Board",
+      "category": "Fitness",
+      "tagline": "Your personal records, in one place",
+      "table": {
+        "name": "lifts",
+        "singular": "lift",
+        "plural": "lifts",
+        "fields": [
+          {
+            "name": "exercise",
+            "label": "Exercise",
+            "type": "text",
+            "required": true,
+            "placeholder": "Back squat"
+          },
+          {
+            "name": "weight_kg",
+            "label": "Weight (kg)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "reps",
+            "label": "Reps",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "set_type",
+            "label": "Set type",
+            "type": "text",
+            "required": true,
+            "placeholder": "Working"
+          },
+          {
+            "name": "lifted_on",
+            "label": "Lifted on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83c\udfcb\ufe0f",
+          "title": "Weight times reps",
+          "body": "The honest measure of a lift."
+        },
+        {
+          "icon": "\ud83d\udcc8",
+          "title": "Progress over time",
+          "body": "Old records stay, new ones stack up."
+        },
+        {
+          "icon": "\ud83c\udfaf",
+          "title": "Working sets vs maxes",
+          "body": "Keep test days separate from training days."
+        }
+      ]
+    },
+    {
+      "slug": "lpg-cylinder-log",
+      "title": "LPG Cylinder Log",
+      "category": "Home",
+      "tagline": "When did the cylinder actually arrive",
+      "table": {
+        "name": "refills",
+        "singular": "refill",
+        "plural": "refills",
+        "fields": [
+          {
+            "name": "connection_id",
+            "label": "Connection / consumer no.",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "booked_on",
+            "label": "Booked on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "delivered_on",
+            "label": "Delivered on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "price",
+            "label": "Price (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "notes",
+            "label": "Notes",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udee2\ufe0f",
+          "title": "Booking to delivery gap",
+          "body": "See the real waiting time, not the promised one."
+        },
+        {
+          "icon": "\ud83d\udcb8",
+          "title": "Price history",
+          "body": "Subsidy and price changes over the year."
+        },
+        {
+          "icon": "\ud83d\udcde",
+          "title": "Connection reference",
+          "body": "Consumer number kept with each entry."
+        }
+      ]
+    },
+    {
+      "slug": "doctor-visit-diary",
+      "title": "Doctor Visit Diary",
+      "category": "Health",
+      "tagline": "One place for every consultation",
+      "table": {
+        "name": "visits",
+        "singular": "visit",
+        "plural": "visits",
+        "fields": [
+          {
+            "name": "doctor",
+            "label": "Doctor",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "speciality",
+            "label": "Speciality",
+            "type": "text",
+            "required": true,
+            "placeholder": "Physician"
+          },
+          {
+            "name": "reason",
+            "label": "Reason",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "fee",
+            "label": "Fee (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "visited_on",
+            "label": "Visited on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83e\ude7a",
+          "title": "Prescription-ready history",
+          "body": "Walk into any new doctor with the full picture."
+        },
+        {
+          "icon": "\ud83d\udcb0",
+          "title": "Spend by speciality",
+          "body": "See where your medical money goes."
+        },
+        {
+          "icon": "\ud83d\udd12",
+          "title": "No accounts",
+          "body": "Your data stays in your own deployment."
+        }
+      ]
+    },
+    {
+      "slug": "startup-idea-vault",
+      "title": "Startup Idea Vault",
+      "category": "Work",
+      "tagline": "Park ideas before they evaporate",
+      "table": {
+        "name": "ideas",
+        "singular": "idea",
+        "plural": "ideas",
+        "fields": [
+          {
+            "name": "idea",
+            "label": "The idea",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "problem",
+            "label": "Problem it solves",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "audience",
+            "label": "Who it is for",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "effort",
+            "label": "Effort 1-5",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "noted_on",
+            "label": "Noted on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udca1",
+          "title": "Idea plus problem",
+          "body": "An idea without a problem is a hobby."
+        },
+        {
+          "icon": "\ud83c\udfaf",
+          "title": "Audience field",
+          "body": "Who exactly, not 'everyone'."
+        },
+        {
+          "icon": "\u26a1",
+          "title": "Effort score",
+          "body": "Quick triage for weekend builds."
+        }
+      ]
+    },
+    {
+      "slug": "cricket-net-scores",
+      "title": "Cricket Net Scores",
+      "category": "Sport",
+      "tagline": "Track your practice sessions properly",
+      "table": {
+        "name": "sessions",
+        "singular": "session",
+        "plural": "sessions",
+        "fields": [
+          {
+            "name": "batter",
+            "label": "Batter",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "bowler_type",
+            "label": "Bowling type",
+            "type": "text",
+            "required": true,
+            "placeholder": "Pace"
+          },
+          {
+            "name": "runs",
+            "label": "Runs",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "balls",
+            "label": "Balls faced",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "session_on",
+            "label": "Session on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83c\udfcf",
+          "title": "Strike rate, calculated",
+          "body": "Runs and balls give you the number that matters."
+        },
+        {
+          "icon": "\ud83c\udfb3",
+          "title": "Pace vs spin",
+          "body": "See which bowling type you actually struggle against."
+        },
+        {
+          "icon": "\ud83d\udcc5",
+          "title": "Session history",
+          "body": "Practice is a trend, not a day."
+        }
+      ]
+    },
+    {
+      "slug": "wedding-budget-sheet",
+      "title": "Wedding Budget Sheet",
+      "category": "Events",
+      "tagline": "Every vendor, every rupee",
+      "table": {
+        "name": "vendors",
+        "singular": "vendor",
+        "plural": "vendors",
+        "fields": [
+          {
+            "name": "vendor",
+            "label": "Vendor",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "category",
+            "label": "Category",
+            "type": "text",
+            "required": true,
+            "placeholder": "Catering"
+          },
+          {
+            "name": "quoted",
+            "label": "Quoted (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "final",
+            "label": "Final (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "booked_on",
+            "label": "Booked on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udc8d",
+          "title": "Quoted versus final",
+          "body": "The gap that ruins wedding budgets, made visible."
+        },
+        {
+          "icon": "\ud83d\udcc2",
+          "title": "Vendor categories",
+          "body": "Catering, decor, photography, each tracked separately."
+        },
+        {
+          "icon": "\u2705",
+          "title": "Booked flag",
+          "body": "Know what is locked and what is still open."
+        }
+      ]
+    },
+    {
+      "slug": "tuition-fee-ledger",
+      "title": "Tuition Fee Ledger",
+      "category": "Education",
+      "tagline": "Small tutoring business, clean books",
+      "table": {
+        "name": "payments",
+        "singular": "payment",
+        "plural": "payments",
+        "fields": [
+          {
+            "name": "student",
+            "label": "Student",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "batch",
+            "label": "Batch",
+            "type": "text",
+            "required": true,
+            "placeholder": "Class 10 Maths"
+          },
+          {
+            "name": "amount",
+            "label": "Amount (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "mode",
+            "label": "Payment mode",
+            "type": "text",
+            "required": true,
+            "placeholder": "UPI"
+          },
+          {
+            "name": "paid_on",
+            "label": "Paid on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udc69\u200d\ud83c\udfeb",
+          "title": "Built for tutors",
+          "body": "Students, batches, and fees that arrive irregularly."
+        },
+        {
+          "icon": "\ud83d\udcb3",
+          "title": "Payment mode",
+          "body": "UPI, cash, bank transfer \u2014 all recorded."
+        },
+        {
+          "icon": "\ud83d\udcca",
+          "title": "Monthly totals",
+          "body": "Know what came in without opening a spreadsheet."
+        }
+      ]
+    },
+    {
+      "slug": "blood-donor-finder",
+      "title": "Blood Donor Finder",
+      "category": "Civic",
+      "tagline": "Find a donor nearby, fast",
+      "table": {
+        "name": "donors",
+        "singular": "donor",
+        "plural": "donors",
+        "fields": [
+          {
+            "name": "blood_group",
+            "label": "Blood group",
+            "type": "text",
+            "required": true,
+            "placeholder": "O+"
+          },
+          {
+            "name": "city",
+            "label": "City",
+            "type": "text",
+            "required": true,
+            "placeholder": "Patna"
+          },
+          {
+            "name": "area",
+            "label": "Area",
+            "type": "text",
+            "required": true,
+            "placeholder": "Kankarbagh"
+          },
+          {
+            "name": "available",
+            "label": "Available now",
+            "type": "bool",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "last_donated",
+            "label": "Last donated",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83e\ude78",
+          "title": "Group and city",
+          "body": "Two filters that matter in an emergency."
+        },
+        {
+          "icon": "\ud83d\udccd",
+          "title": "Area level",
+          "body": "Neighbourhood, not just city."
+        },
+        {
+          "icon": "\ud83d\udd52",
+          "title": "Last donation date",
+          "body": "Respects the three-month gap."
+        }
+      ]
+    },
+    {
+      "slug": "power-cut-log",
+      "title": "Power Cut Log",
+      "category": "Civic",
+      "tagline": "Evidence for the next complaint",
+      "table": {
+        "name": "outages",
+        "singular": "outage",
+        "plural": "outages",
+        "fields": [
+          {
+            "name": "area",
+            "label": "Area",
+            "type": "text",
+            "required": true,
+            "placeholder": "Sector 12"
+          },
+          {
+            "name": "duration_min",
+            "label": "Duration (min)",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "reason",
+            "label": "Reason if known",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "started_at",
+            "label": "Started at",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "notes",
+            "label": "Notes",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\u26a1",
+          "title": "Duration, not opinion",
+          "body": "Minutes lost, recorded."
+        },
+        {
+          "icon": "\ud83d\uddfa\ufe0f",
+          "title": "By area",
+          "body": "Compare colonies on the same grid."
+        },
+        {
+          "icon": "\ud83d\udcc4",
+          "title": "Exportable history",
+          "body": "Something to show the electricity board."
+        }
+      ]
+    },
+    {
+      "slug": "library-due-tracker",
+      "title": "Library Due Tracker",
+      "category": "Reading",
+      "tagline": "Never pay a late fee again",
+      "table": {
+        "name": "loans",
+        "singular": "loan",
+        "plural": "loans",
+        "fields": [
+          {
+            "name": "book",
+            "label": "Book",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "borrower",
+            "label": "Borrower",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "borrowed_on",
+            "label": "Borrowed on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "due_on",
+            "label": "Due on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "returned",
+            "label": "Returned",
+            "type": "bool",
+            "required": false,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83d\udcd6",
+          "title": "Due dates front and centre",
+          "body": "The only field that costs you money."
+        },
+        {
+          "icon": "\ud83d\udc65",
+          "title": "Multiple borrowers",
+          "body": "For home and office shelves alike."
+        },
+        {
+          "icon": "\u2705",
+          "title": "Return tracking",
+          "body": "See what is still out."
+        }
+      ]
+    },
+    {
+      "slug": "freelance-rate-calc",
+      "title": "Freelance Rate Calculator",
+      "category": "Work",
+      "tagline": "Price your time without flinching",
+      "table": {
+        "name": "quotes",
+        "singular": "quote",
+        "plural": "quotes",
+        "fields": [
+          {
+            "name": "client",
+            "label": "Client",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "scope",
+            "label": "Scope",
+            "type": "text",
+            "required": true,
+            "placeholder": "Landing page"
+          },
+          {
+            "name": "hours",
+            "label": "Estimated hours",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "rate",
+            "label": "Hourly rate (\u20b9)",
+            "type": "number",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "sent_on",
+            "label": "Sent on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83e\uddfe",
+          "title": "Hours times rate",
+          "body": "A quote you can defend line by line."
+        },
+        {
+          "icon": "\ud83d\udc64",
+          "title": "Per client",
+          "body": "See who is actually worth the time."
+        },
+        {
+          "icon": "\ud83d\udce4",
+          "title": "Sent date",
+          "body": "Track how long proposals sit unanswered."
+        }
+      ]
+    },
+    {
+      "slug": "monsoon-symptom-tracker",
+      "title": "Monsoon Symptom Tracker",
+      "category": "Health",
+      "tagline": "Spot the pattern in seasonal illness",
+      "table": {
+        "name": "symptoms",
+        "singular": "symptom",
+        "plural": "symptoms",
+        "fields": [
+          {
+            "name": "symptom",
+            "label": "Symptom",
+            "type": "text",
+            "required": true,
+            "placeholder": "Fever"
+          },
+          {
+            "name": "severity",
+            "label": "Severity 1-5",
+            "type": "int",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "family_member",
+            "label": "Who",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "noted_on",
+            "label": "Noted on",
+            "type": "date",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "notes",
+            "label": "Notes",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          }
+        ]
+      },
+      "features": [
+        {
+          "icon": "\ud83c\udf27\ufe0f",
+          "title": "Household view",
+          "body": "Track the whole family, not one person."
+        },
+        {
+          "icon": "\ud83d\udcc8",
+          "title": "Severity over time",
+          "body": "Is it getting better or worse, on paper."
+        },
+        {
+          "icon": "\ud83d\uddd3\ufe0f",
+          "title": "Date-linked",
+          "body": "Line it up with the weather and the water supply."
+        }
+      ]
+    }
+  ]
+}
