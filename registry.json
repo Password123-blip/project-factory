@@ -4,7 +4,7 @@
   "supabase_url": "https://gkrzhaicrsmuixagezkm.supabase.co",
   "hosting": "github-pages",
   "note": "One shared Supabase project; every app gets its own uniquely prefixed table. Hosting is GitHub Pages because the sandbox cannot reach api.netlify.com.",
-  "last_updated": "2026-11-11T18:47:00+00:00",
+  "last_updated": "2026-11-11T19:46:00+00:00",
   "created": [
     {
       "slug": "mandi-price-watch",
@@ -50,6 +50,15 @@
       "live": "https://password123-blip.github.io/exam-revision-budget/",
       "table": "exam_revision_budget_sessions",
       "created_at": "2026-11-11T18:47:00+00:00"
+    },
+    {
+      "slug": "rent-split-ledger",
+      "title": "Rent Split Ledger",
+      "category": "Finance",
+      "repo": "https://github.com/Password123-blip/rent-split-ledger",
+      "live": "https://password123-blip.github.io/rent-split-ledger/",
+      "table": "rent_split_ledger_expenses",
+      "created_at": "2026-11-11T19:46:00+00:00"
     }
   ]
 }
