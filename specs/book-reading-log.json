@@ -1,0 +1,69 @@
+{
+  "slug": "book-reading-log",
+  "title": "Book Reading Log",
+  "tagline": "Track pages, not vibes",
+  "description": "Track pages, not vibes.",
+  "category": "Reading",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "books",
+    "singular": "book",
+    "plural": "books",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Title",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "pages_read",
+        "label": "Pages read",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "rating",
+        "label": "Rating 1-5",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "finished_on",
+        "label": "Finished on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "📚",
+      "title": "Pages and ratings",
+      "body": "The two numbers that actually tell you about your reading."
+    },
+    {
+      "icon": "✍️",
+      "title": "Author index",
+      "body": "See which authors you keep coming back to."
+    },
+    {
+      "icon": "🏁",
+      "title": "Finish dates",
+      "body": "How long a book really took you."
+    }
+  ],
+  "seed": []
+}
