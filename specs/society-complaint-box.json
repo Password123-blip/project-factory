@@ -1,0 +1,69 @@
+{
+  "slug": "society-complaint-box",
+  "title": "Society Complaint Box",
+  "tagline": "A paper trail for building complaints",
+  "description": "A paper trail for building complaints.",
+  "category": "Civic",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "complaints",
+    "singular": "complaint",
+    "plural": "complaints",
+    "fields": [
+      {
+        "name": "flat",
+        "label": "Flat / unit",
+        "type": "text",
+        "required": true,
+        "placeholder": "B-402"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text",
+        "required": true,
+        "placeholder": "Plumbing"
+      },
+      {
+        "name": "summary",
+        "label": "What happened",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "text",
+        "required": true,
+        "placeholder": "High"
+      },
+      {
+        "name": "raised_on",
+        "label": "Raised on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\ud83d\udccb",
+      "title": "Nothing gets lost in WhatsApp",
+      "body": "Every complaint gets a row with a date."
+    },
+    {
+      "icon": "\ud83c\udff7\ufe0f",
+      "title": "Categorised",
+      "body": "Plumbing, lift, security, parking \u2014 sortable."
+    },
+    {
+      "icon": "\u23f1\ufe0f",
+      "title": "Age of open issues",
+      "body": "See which complaints have been sitting too long."
+    }
+  ],
+  "seed": []
+}
