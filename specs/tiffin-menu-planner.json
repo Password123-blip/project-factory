@@ -1,0 +1,69 @@
+{
+  "slug": "tiffin-menu-planner",
+  "title": "Tiffin Menu Planner",
+  "tagline": "Plan a week of tiffin without repeating a sabzi",
+  "description": "Plan a week of tiffin without repeating a sabzi.",
+  "category": "Food",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "meals",
+    "singular": "meal",
+    "plural": "meals",
+    "fields": [
+      {
+        "name": "dish",
+        "label": "Dish",
+        "type": "text",
+        "required": true,
+        "placeholder": "Rajma, bhindi, dal tadka"
+      },
+      {
+        "name": "day_of_week",
+        "label": "Day",
+        "type": "text",
+        "required": true,
+        "placeholder": "Monday"
+      },
+      {
+        "name": "meal_type",
+        "label": "Meal type",
+        "type": "text",
+        "required": true,
+        "placeholder": "Lunch"
+      },
+      {
+        "name": "is_veg",
+        "label": "Vegetarian",
+        "type": "bool",
+        "required": false,
+        "placeholder": ""
+      },
+      {
+        "name": "notes",
+        "label": "Notes",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\ud83d\uddd3\ufe0f",
+      "title": "A week at a glance",
+      "body": "Seven days, two meals, no accidental repeats."
+    },
+    {
+      "icon": "\ud83e\udd57",
+      "title": "Veg and non-veg side by side",
+      "body": "Tag each dish so the whole household can pick."
+    },
+    {
+      "icon": "\ud83d\udce4",
+      "title": "Print and stick on the fridge",
+      "body": "Clean layout that survives a real kitchen."
+    }
+  ],
+  "seed": []
+}
