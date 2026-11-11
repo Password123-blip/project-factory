@@ -1,0 +1,19 @@
+{
+  "owner": "Password123-blip",
+  "supabase_project_ref": "gkrzhaicrsmuixagezkm",
+  "supabase_url": "https://gkrzhaicrsmuixagezkm.supabase.co",
+  "hosting": "github-pages",
+  "note": "One shared Supabase project; every app gets its own uniquely prefixed table. Hosting is GitHub Pages because the sandbox cannot reach api.netlify.com.",
+  "last_updated": "2026-11-11T15:24:58+00:00",
+  "created": [
+    {
+      "slug": "mandi-price-watch",
+      "title": "Mandi Price Watch",
+      "category": "Agri Tools",
+      "repo": "https://github.com/Password123-blip/mandi-price-watch",
+      "live": "https://password123-blip.github.io/mandi-price-watch/",
+      "table": "mandi_price_watch_prices",
+      "created_at": "2026-11-11T15:24:58+00:00"
+    }
+  ]
+}
