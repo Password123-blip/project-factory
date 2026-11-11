@@ -4,7 +4,7 @@
   "supabase_url": "https://gkrzhaicrsmuixagezkm.supabase.co",
   "hosting": "github-pages",
   "note": "One shared Supabase project; every app gets its own uniquely prefixed table. Hosting is GitHub Pages because the sandbox cannot reach api.netlify.com.",
-  "last_updated": "2026-11-11T16:45:30+00:00",
+  "last_updated": "2026-11-11T17:48:00+00:00",
   "created": [
     {
       "slug": "mandi-price-watch",
@@ -32,6 +32,15 @@
       "live": "https://password123-blip.github.io/scooter-service-tracker/",
       "table": "scooter_service_tracker_services",
       "created_at": "2026-11-11T16:45:30+00:00"
+    },
+    {
+      "slug": "society-complaint-box",
+      "title": "Society Complaint Box",
+      "category": "Civic",
+      "repo": "https://github.com/Password123-blip/society-complaint-box",
+      "live": "https://password123-blip.github.io/society-complaint-box/",
+      "table": "society_complaint_box_complaints",
+      "created_at": "2026-11-11T17:48:00+00:00"
     }
   ]
 }
